@@ -20,7 +20,7 @@ const {
     Queen_Data,
     bytesToSize,
     getSizeMedia
-} = require('./queen-md')
+} = require('queen-md')
 
 const {
     OWNER,
