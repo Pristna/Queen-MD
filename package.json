@@ -1,0 +1,27 @@
+{
+  "name": "queen-md",
+  "version": "1.0.0",
+  "description": "World Best First Sinhala Multi Device Whatsapp Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "owner": {
+    "name": "Nimesh Piyumal",
+    "email": "nimeshofficial.info@gmail.com",
+    "whatsapp": "+94786802371"
+  },
+  "author": "Nimesh Piyumal",
+  "license": "ISC",
+  "dependencies": {
+    "@darkcriminal/baileys": "latest",
+    "@hapi/boom": "^10.0.1",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "queen-md": "^1.0.4"
+  }
+}
