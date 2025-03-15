@@ -1,6 +1,6 @@
 {
   "name": "queen-md",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "World Best First Sinhala Multi Device Whatsapp Bot",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,6 @@
     "express": "^4.21.2",
     "pino": "^9.6.0",
     "qrcode-terminal": "^0.12.0",
-    "queen-md": "^1.0.4"
+    "queen-md": "latest"
   }
 }
