@@ -8,12 +8,12 @@
     "start": "node index.js"
   },
   "owner": {
-    "name": "Nimesh Piyumal",
-    "email": "nimeshofficial.info@gmail.com",
+    "name": "Genux Team",
+    "email": "info@genux.me",
     "whatsapp": "+94786802371"
   },
-  "author": "Nimesh Piyumal",
-  "license": "ISC",
+  "author": "Genux Official",
+  "license": "MIT",
   "dependencies": {
     "@darkcriminal/baileys": "latest",
     "@hapi/boom": "^10.0.1",
