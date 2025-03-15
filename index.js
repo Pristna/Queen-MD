@@ -1,6 +1,6 @@
 const {
-    default: makeWASocket,
-    useMultiFileAuthState,
+    default: makeLKSocket,
+    setMultiFileAuthState,
     DisconnectReason,
     getContentType,
     jidNormalizedUser,
@@ -20,7 +20,7 @@ const {
     Queen_Data,
     bytesToSize,
     getSizeMedia
-} = require('queen-md')
+} = require('./queen-md')
 
 const {
     OWNER,
@@ -41,8 +41,8 @@ const store = makeInMemoryStore({
 })
 
 async function QueenWa() {
-    const { state, saveCreds } = await useMultiFileAuthState("./session");
-    const queen = makeWASocket({
+    const { state, saveCreds } = await setMultiFileAuthState("./session");
+    const queen = makeLKSocket({
         auth: state,
         printQRInTerminal: true,
         logger: pino({ level: "silent" }),
