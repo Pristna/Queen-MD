@@ -17,11 +17,11 @@
   ],
   "env": {
     "USER_NAME": {
-      "description": "Enter Your UserName (contact Nimesh Piyumal for get username and password +94786802371)",
+      "description": "Enter Your Username (contact Nimesh Piyumal for get username and password +94786802371)",
       "required": true
     },
     "PASSWORD": {
-      "description": "Enter Password",
+      "description": "Enter Password (contact Nimesh Piyumal for get username and password +94786802371)",
       "required": true
     }
   }
