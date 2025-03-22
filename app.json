@@ -1,18 +1,28 @@
 {
-    "name": "Queen-MD",
-    "description": "World Best First Sinhala Multi Device Whatsapp Bot",
-    "repository": "https://github.com/genux-official/Queen-MD",
-    "logo": "https://i.ibb.co/WNr4QnXD/d3aed4a5-9bfd-4a96-8a49-1f53b02d5428.png",
-    "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device", "queen-md"],
-    "buildpacks": [
-      {
-        "url": "heroku/nodejs"
-      },
-      {
-        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-      },
-      {
-        "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-      }
-    ]
+  "name": "Queen-MD",
+  "description": "World's Best First Sinhala Multi-Device WhatsApp Bot",
+  "repository": "https://github.com/genux-official/Queen-MD",
+  "logo": "https://i.ibb.co/WNr4QnXD/d3aed4a5-9bfd-4a96-8a49-1f53b02d5428.png",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device", "queen-md"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+  "env": {
+    "USER_NAME": {
+      "description": "Enter Your UserName (contact Nimesh Piyumal for get username and password +94786802371)",
+      "required": true
+    },
+    "PASSWORD": {
+      "description": "Enter Password",
+      "required": true
+    }
+  }
 }
